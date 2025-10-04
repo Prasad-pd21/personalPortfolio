@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Portfolio feature: LWC bundles -->
+    <types>
+        <members>portfolioMain</members>
+        <members>navbar</members>
+        <members>heroSection</members>
+        <members>aboutSection</members>
+        <members>skillsSection</members>
+        <members>projectsSection</members>
+        <members>contactSection</members>
+        <members>footer</members>
+        <members>toastMessage</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <!-- Apex used by portfolio LWCs -->
+    <types>
+        <members>ContactSectionController</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Custom Label referenced in Apex -->
+    <types>
+        <members>Resume_File_Title</members>
+        <name>CustomLabel</name>
+    </types>
+
+    <!-- Custom Object used by Contact form -->
+    <types>
+        <members>Enquiry__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Static resources referenced by hero/contact sections -->
+    <types>
+        <members>MyResume</members>
+        <members>prasad_profile</members>
+        <name>StaticResource</name>
+    </types>
+
+    <version>64.0</version>
+</Package>
